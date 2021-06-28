@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F2F2F">
+
+    <TextView
+        android:id="@+id/HelloAnd03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="Hello AND03"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/WelLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/HelloAnd03"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome to Layouts"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/ViewCircle"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/WelLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:background="@drawable/blue_circle" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:drawableEnd="@drawable/ic_name_1"
+        android:drawableRight="@drawable/ic_name_1"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:text="Name : Sachin Sharma"
+        android:textColor="#FF0000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvName"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:text="Age : 24"
+        android:textColor="#FF0000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#00FF00"
+        android:padding="20dp"
+        android:text="@string/next"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <View
+        android:id="@+id/View3"
+        android:layout_width="140dp"
+        android:layout_height="12dp"
+        android:layout_above="@id/btnNext"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="#C4C4C4" />
+    <View
+        android:id="@+id/View4"
+        android:layout_width="166dp"
+        android:layout_height="20dp"
+        android:layout_above="@id/View3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="#C4C4C4" />
+    <View
+
+        android:layout_width="166dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/View4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="#C4C4C4" />
+
+
+</RelativeLayout>
