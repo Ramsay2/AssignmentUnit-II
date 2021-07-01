@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Scroll_view_you</string>
+    <string name="first_name">First Name :     </string>
+    <string name="name">Name</string>
+    <string name="add_new_employee">Add New Employee</string>
+    <string name="enter_your_name">First Name</string>
+    <string name="last_name">Last Name :</string>
+    <string name="enter_your_last_name">Last Name </string>
+    <string name="email">Email</string>
+    <string name="work_email">Work Email :</string>
+    <string name="this_is_also_used_as_login_coding">(This is also used as login coding)</string>
+</resources>
