@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Scroll_Demo_03</string>
+    <string name="enter_the_name_hint">Enter the name</string>
+    <string name="enter_the_id_hint">Enter the ID</string>
+    <string name="enter_date_of_birth_hint">Enter Date of Birth</string>
+    <string name="enter_blood_group">Enter Blood Group</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_state">Enter State</string>
+    <string name="enter_district">enter District</string>
+    <string name="enter_the_name">Enter the name</string>
+    <string name="enter_address_hint">Enter Address</string>
+</resources>
