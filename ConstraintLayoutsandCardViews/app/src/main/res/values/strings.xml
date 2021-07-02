@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Constraint Layouts and CardViews</string>
+    <string name="choose_a_daily_gole">Choose a daily gole</string>
+    <string name="choose_a_daily_goal">Choose a Daily goal</string>
+    <string name="_13">13</string>
+    <string name="casual">Casual</string>
+    <string name="steady">Steady</string>
+    <string name="_25">25</string>
+</resources>
