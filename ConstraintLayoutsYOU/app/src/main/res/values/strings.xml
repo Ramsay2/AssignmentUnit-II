@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Constraint Layouts (YOU)</string>
+    <string name="login">Login</string>
+    <string name="use_phone_number">USE PHONE NUMBER</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login1">Login</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="todo">TODO</string>
+    <string name="or">or</string>
+    <string name="continue_with_facebook">CONTINUE WITH FACEBOOK</string>
+    <string name="continue_with_google">CONTINUE WITH GOOGLE</string>
+</resources>
