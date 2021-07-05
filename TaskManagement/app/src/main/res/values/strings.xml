@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Task Management</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="log_in">Log in</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="todo">TODO</string>
+    <string name="login">Login</string>
+    <string name="forget_your_password">Forget your password</string>
+    <string name="task_title">Task Title</string>
+    <string name="task_description">Task Description</string>
+    <string name="task_status">Task Status</string>
+    <string name="date">Date</string>
+    <string name="pending">Pending</string>
+    <string name="add_new_task">Add New Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="delete_task">Delete task</string>
+
+    <string name="welcome_back">Welcome Back</string>
+    <string name="meet_with_omar">Meet with Omar</string>
+    <string name="create_a_new_task">Create a new Task</string>
+    <string name="completed">Completed</string>
+</resources>
