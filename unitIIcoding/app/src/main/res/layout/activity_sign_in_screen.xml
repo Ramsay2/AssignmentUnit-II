@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BC1C2B"
+    tools:context=".Sign_Up_Screen">
+
+    <ImageView
+        android:id="@+id/backButtonSignIn"
+        android:layout_width="40dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:src="@drawable/ic_vector__4_" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="151dp" />
+
+    <TextView
+        android:id="@+id/tvSignInSignInScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <View
+        android:id="@+id/viewSignInScreen"
+        android:layout_width="match_parent"
+        android:layout_height="582dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvWelcomeBackSignInScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back"
+        android:textSize="20sp"
+        android:textColor="#BC1C2B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:id="@+id/tvContinueToSignInSignInScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue to Sign In"
+        android:textColor="#BC1C2B"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewSignInScreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWelcomeBackSignInScreen"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <TextView
+        android:id="@+id/tvNameSignInScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#A2A2A2A2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvContinueToSignInSignInScreen"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonNameSignInScreen"
+        android:layout_width="344dp"
+        android:layout_height="65dp"
+        android:background="#F5F5F5"
+        android:hint="Enter the Name"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/viewSignInScreen"
+        app:layout_constraintEnd_toEndOf="@+id/viewSignInScreen"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/viewSignInScreen"
+        app:layout_constraintTop_toBottomOf="@+id/tvNameSignInScreen"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvPasswordSignInScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#A2A2A2A2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvContinueToSignInSignInScreen"
+        app:layout_constraintVertical_bias="0.298" />
+
+    <EditText
+        android:id="@+id/etPasswordSignInScreen"
+        android:layout_width="344dp"
+        android:layout_height="65dp"
+        android:background="#F5F5F5"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/viewSignInScreen"
+        app:layout_constraintEnd_toEndOf="@+id/viewSignInScreen"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/viewSignInScreen"
+        app:layout_constraintTop_toBottomOf="@+id/tvNameSignInScreen"
+        app:layout_constraintVertical_bias="0.338" />
+
+
+    <TextView
+        android:id="@+id/SignInClickSignInScreen"
+        android:layout_width="230dp"
+        android:layout_height="55dp"
+        android:background="#BC1C2B"
+        android:gravity="center"
+        android:text="Sign In"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewSignInScreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPasswordSignInScreen"
+        app:layout_constraintVertical_bias="0.425" />
+
+    <TextView
+        android:id="@+id/tvDoNotHaveAnAccountSignInScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Don't Have an Account ?"
+        android:textColor="#A2A2A2"
+        app:layout_constraintBottom_toBottomOf="@+id/viewSignInScreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignInClickSignInScreen"
+        app:layout_constraintVertical_bias="0.232" />
+
+    <TextView
+        android:id="@+id/tvSignUpSignInScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Sign Up"
+        android:textColor="#BC1C2B"
+        app:layout_constraintBottom_toBottomOf="@+id/viewSignInScreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignInClickSignInScreen"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <TextView
+        android:id="@+id/tvForgetPasswordSignInScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password?"
+        android:textStyle="bold"
+        android:textColor="#BC1C2B"
+        app:layout_constraintBottom_toTopOf="@+id/SignInClickSignInScreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPasswordSignInScreen"
+        app:layout_constraintVertical_bias="0.311" />
+</androidx.constraintlayout.widget.ConstraintLayout>

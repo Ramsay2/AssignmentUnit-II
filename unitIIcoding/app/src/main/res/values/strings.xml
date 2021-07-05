@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">unit-II-coding</string>
+    <string name="sign_in">Sign In</string>
+    <string name="masai_school_is_a_21st_century_coding_school_that_cares_about_you">Masai school is a 21st century coding school that cares about you!</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="welcome">WELCOME</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="have_an_account">Have an Account</string>
+    <string name="sign_in2">Sign In</string>
+    <string name="textview">TextView</string>
+</resources>

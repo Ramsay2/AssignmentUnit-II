@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BC1C2B"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvSignIN"
+        android:layout_width="304dp"
+        android:layout_height="66dp"
+        android:elevation="3dp"
+        android:background="@color/white"
+        android:textColor="#BC1C2B"
+        android:textSize="20sp"
+        android:text="@string/sign_in"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.598"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.824" />
+
+    <TextView
+        android:id="@+id/tvCreateAnAccount"
+        android:layout_width="304dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="@string/create_an_account"
+        android:textSize="20dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.598"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSignIN" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvSignIN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="360dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/masai_school_is_a_21st_century_coding_school_that_cares_about_you"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvSignIN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.159" />
+</androidx.constraintlayout.widget.ConstraintLayout>
