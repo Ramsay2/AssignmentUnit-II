@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Event_Booking</string>
+    <string name="first_name">First Name</string>
+    <string name="et_first_name">Name</string>
+    <string name="tvLast_name">Last Name</string>
+    <string name="et_last_name">Last Name</string>
+    <string name="tv_email_address">Email Address</string>
+    <string name="am_sign_in">Sign In</string>
+    <string name="sSNext">Next</string>
+    <string name="tv_phone_number">Phone Number</string>
+    <string name="et_phone_number">Phone Number</string>
+    <string name="et_email_address">Email Address</string>
+    <string name="sS_date">Date</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="no_of_seats">No of Seats</string>
+    <string name="eTno_of_seats">No of Seats</string>
+</resources>
