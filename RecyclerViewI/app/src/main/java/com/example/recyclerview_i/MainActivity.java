@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         initView();
         buildStudentList();
         setRecyclerView();
+
+
     }
 
     private void buildStudentList() {
