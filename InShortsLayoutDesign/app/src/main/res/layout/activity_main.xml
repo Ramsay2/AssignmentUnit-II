@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="279dp"
+        android:layout_marginTop="100dp"
+        android:paddingHorizontal="20dp"
+        app:srcCompat="@drawable/cigarette_buts_istock" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#313236"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="90dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:text="Smoking" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="45dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+
+        app:srcCompat="@drawable/ic_vector" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/ic_ant_design_home_outlined" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="155dp"
+        app:srcCompat="@drawable/ic_line_1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:text="Punjab 1st in India to Ban Cigarette"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="465dp"
+        android:text="Your smoke is also bad for other people - they breathe in your smoke secondhand and can get many of the same problems as smokers do. This includes heart disease and lung cancer. Children exposed to secondhand smoke have a higher risk of ear infections, colds, pneumonia, bronchitis, and more severe asthma. Mothers who breathe secondhand smoke while pregnant are more likely to have preterm labor and babies with low birth weight."
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#313236"
+        android:layout_marginTop="685dp"
+        android:text="Published at 12:00 pm "
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+</androidx.cardview.widget.CardView>
