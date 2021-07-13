@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
 
     private void setRecyclerView() {
         EmployeeAdapter employeeAdapter = new EmployeeAdapter(employeeList, this);
+
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(employeeAdapter);
@@ -64,10 +65,11 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
         mBtnDone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mEditCardView.setVisibility(View.GONE);
+
                 Employee new_employee = new Employee(mEtName.getText().toString(), mEtAddress.getText().toString()
                         , Integer.parseInt(mEtAge.getText().toString()));
                 employeeList.set(position, new_employee);
+                mEditCardView.setVisibility(View.GONE);
             }
         });
 
