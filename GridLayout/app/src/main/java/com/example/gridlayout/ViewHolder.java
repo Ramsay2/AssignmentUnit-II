@@ -13,7 +13,6 @@ import androidx.recyclerview.widget.RecyclerView;
 public class ViewHolder extends RecyclerView.ViewHolder {
 
     private TextView mTvTextView;
-    private CardView cardView;
     private ItemClickListener itemClickListener;
 
 
@@ -21,14 +20,10 @@ public class ViewHolder extends RecyclerView.ViewHolder {
         super(itemView);
         this.itemClickListener= itemClickListener;
         mTvTextView = itemView.findViewById(R.id.textView);
-        cardView = itemView.findViewById(R.id.ilCard);
+
     }
 
-
     public void setData(Grids grids) {
-        mTvTextView.setText(grids.getgTvTextView());
-        mTvTextView.setBackground(AppCompatResources.getDrawable(mTvTextView.getContext(), R.color.white));
-
         mTvTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
