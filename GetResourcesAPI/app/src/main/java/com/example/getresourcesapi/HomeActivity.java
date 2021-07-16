@@ -41,8 +41,6 @@ public class HomeActivity extends AppCompatActivity {
         apiService.getUser(intent).enqueue(new Callback<ResponseDTO>() {
             @Override
             public void onResponse(Call<ResponseDTO> call, Response<ResponseDTO> response) {
-                Log.d("sharma",String.valueOf( intent));
-
 
                     ResponseDTO model = response.body();
                     name = model.getData().getName();
