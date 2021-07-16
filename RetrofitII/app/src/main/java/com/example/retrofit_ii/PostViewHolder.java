@@ -19,7 +19,7 @@ public class PostViewHolder extends RecyclerView.ViewHolder {
         mTvEmail = itemView.findViewById(R.id.tvEmail);
         mTvName  = itemView.findViewById(R.id.tvName);
     }
-    public void stData(ResponseModel responseModel){
+    public void setData(ResponseModel responseModel){
         mTvEmail.setText(responseModel.getEmail());
         mTvName.setText(responseModel.getName());
         mTvBody.setText(responseModel.getBody());

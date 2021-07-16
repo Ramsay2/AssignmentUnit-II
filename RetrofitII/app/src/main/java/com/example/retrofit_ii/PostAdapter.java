@@ -26,7 +26,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull PostViewHolder holder, int position) {
         ResponseModel responseModel = postModelList.get(position);
-        holder.stData(responseModel);
+        holder.setData(responseModel);
     }
 
     @Override
