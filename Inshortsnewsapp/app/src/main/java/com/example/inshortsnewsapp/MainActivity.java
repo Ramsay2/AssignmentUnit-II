@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onResponse(Call<ResponseModel>call, Response<ResponseModel> response) {
-                Log.d("sharma", "aaya k nai");
+                
                 if (response.body() != null) {
 
                     adapter.updateData(response.body().getData());
