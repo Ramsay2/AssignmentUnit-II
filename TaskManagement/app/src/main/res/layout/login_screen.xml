@@ -130,7 +130,7 @@
 
 
     <TextView
-        android:id="@+id/tvAddNewTask"
+        android:id="@+id/tvLogIn"
         android:layout_width="296dp"
         android:layout_height="58dp"
         android:layout_gravity="center"

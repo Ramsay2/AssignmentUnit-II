@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E5E5E5"
+    android:background="@color/white"
     tools:context=".MainActivity2">
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline1"
         android:layout_width="wrap_content"
@@ -74,15 +76,16 @@
         android:id="@+id/TaskTitleCard"
         android:layout_width="377dp"
         android:layout_height="60dp"
+        android:elevation="10dp"
+        android:textColor="@color/black"
         android:background="@drawable/bgtextview"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:hint="Enter Email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/guideline1"
-        app:layout_constraintVertical_bias="0.165">
-
-    </EditText>
+        app:layout_constraintVertical_bias="0.165"/>
 
     <TextView
         android:id="@+id/tvPassword"
@@ -103,6 +106,8 @@
         android:layout_width="377dp"
         android:layout_height="60dp"
         android:background="@drawable/bgtextview"
+        android:elevation="10dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -129,35 +134,29 @@
         android:layout_width="377dp"
         android:layout_height="60dp"
         android:background="@drawable/bgtextview"
+        android:elevation="10dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvForgetPassword"
-        app:layout_constraintVertical_bias="0.156">
+        app:layout_constraintVertical_bias="0.156"/>
 
-    </EditText>
 
     <Button
-        android:id="@+id/createAccountCard"
-        android:layout_width="296dp"
-        android:layout_height="58dp"
-        android:elevation="5dp"
+        android:id="@+id/tvAddNewTask"
+        android:layout_width="230dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/andada"
+        android:gravity="center"
+        android:text="@string/create_an_account"
+        android:textColor="@color/white"
+        android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rePasswordCard">
-
-        <Button
-            android:id="@+id/tvAddNewTask"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:background="@drawable/shape"
-            android:fontFamily="@font/andada"
-            android:gravity="center"
-            android:text="@string/create_an_account"
-            android:textColor="@color/white"
-            android:textSize="17sp" />
-    </Button>
+        app:layout_constraintTop_toBottomOf="@+id/rePasswordCard" />
 </androidx.constraintlayout.widget.ConstraintLayout>

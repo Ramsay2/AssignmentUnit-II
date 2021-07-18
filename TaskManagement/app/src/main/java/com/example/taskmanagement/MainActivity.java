@@ -18,20 +18,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         maCreate_Account = findViewById(R.id.tvCreateMainActivity);
         maLogin = findViewById(R.id.tvLoginHome);
-    /*    maCreate_Account.setOnClickListener(new View.OnClickListener() {
+        maCreate_Account.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,Second_screen.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity2.class);
                 startActivity(intent);
             }
-        });*/
-        /*maLogin.setOnClickListener(new View.OnClickListener() {
+        });
+        maLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, homeScreen.class);
                 startActivity(intent);
             }
-        });*/
+        });
 
     }
     public void setMaCreate_Account(View view) {
