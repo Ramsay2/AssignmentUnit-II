@@ -11,3 +11,9 @@ public interface ApiService {
     Call<List<ResponseModel>> getPost(@Query("postId") int postId);
 
 }
+/*
+public interface ApiService {
+
+    @GET("/api/users/{userId}")
+    Call<ResponseDTO> getUser(@Path("userId") int userId);
+}*/
