@@ -40,7 +40,9 @@ public class HomeActivity extends AppCompatActivity {
         ApiService apiService = Network.getInstance().create(ApiService.class);
         apiService.getUser().enqueue(new Callback<List<ResponseModel>>() {
             @Override
+
             public void onResponse(Call<List<ResponseModel>> call, Response<List<ResponseModel>> response) {
+
                     responseModelList = response.body();
                     adapter.updateData(responseModelList);
 
